@@ -33,7 +33,7 @@ header {
 }
 
 .item-time {
-    margin-top: -20px;
+    margin-top: -35px;
     height: 80px;
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 #fulldate {
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 #fulltime {
@@ -74,6 +74,7 @@ header {
 }
 
 footer {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
