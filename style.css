@@ -68,6 +68,11 @@ header {
     font-size: 18pt;
 }
 
+.image {
+    width: 80px;
+    height: 80px;
+}
+
 footer {
     display: flex;
     justify-content: center;
