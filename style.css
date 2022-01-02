@@ -14,14 +14,14 @@ header {
     align-items: center;
 }
 
-h1 {
+.title {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24pt;
+    font-size: 14pt;
 }
 
 .container {
     width: 100%;
-    margin-top: 31px;
+    margin-top: 43px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,11 +33,13 @@ h1 {
 }
 
 .item-time {
+    margin-top: -20px;
     height: 80px;
 }
 
 .container-row {
     width: 100%;
+    margin-top: 36px;
     height: 270px;
     display: flex;
     flex-direction: row;
@@ -50,11 +52,11 @@ h1 {
 }
 
 #fulldate {
-    font-size: 24pt;
+    font-size: 18pt;
 }
 
 #fulltime {
-    font-size: 64pt;
+    font-size: 48pt;
     font-weight: bold;
 }
 
@@ -68,6 +70,7 @@ h1 {
 }
 
 footer {
+    margin-top: 75px;
     display: flex;
     justify-content: center;
 }
