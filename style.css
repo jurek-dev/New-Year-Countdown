@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-data {
+    height: 80px;
+}
+
+.item-time {
+    height: 80px;
+}
+
+.item-info {
+    height: 200px;
+    font-size: 24pt;
+}
+
+#fulldate {
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+#fulltime {
+    font-size: 36pt;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
