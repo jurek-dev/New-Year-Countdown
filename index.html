@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,30 +15,33 @@
         <p class="title">CountOwl</p>
     </header>
 
-    <div class="container">
+    <main>
+        <section class="clockPanel">
+            <div class="container">
+                <div class="item-data">
+                    <p id="fulldate">00/00/0000</p>
+                </div>
 
-        <div class="item-data">
-            <p id="fulldate">00/00/0000</p>
-        </div>
+                <div class="item-time">
+                    <p id="fulltime">00:00:00</p>
+                </div>
 
-        <div class="item-time">
-            <p id="fulltime">00:00:00</p>
-        </div>
+            </div>
 
-    </div>
+            <div class="container-row">
 
-    <div class="container-row">
+                <div class="item-info">
+                    <p id="infoText">Hoje é mais um dia!</p>
+                    <p id="subinfoText">Tenha um dia produtivo.</p>
+                </div>
 
-        <div class="item-info">
-            <p id="infoText">Hoje é mais um dia!</p>
-            <p id="subinfoText">Tenha um dia produtivo.</p>
-        </div>
+                <div class="image">
+                    <img id="imageEvent" src="img/default-day.png"/>
+                </div>
 
-        <div class="image">
-            <img id="imageEvent" src="img/default-day.png"/>
-        </div>
-
-    </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <a href="https://github.com/jurek-dev"><img class="git" src="img/logo-github.png"></a>
